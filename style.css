@@ -140,11 +140,14 @@ header .navbar ul li a:hover {
     font-size: 2.5rem;
     font-weight: lighter;
     color: #eee;
+    text-align: center;
 }
 
 .home .name span {
     font-size: 4rem;
     color: #fff;
+    display: block;
+    text-align: center;
 }
 
 .home .post {
@@ -598,6 +601,9 @@ header .navbar ul li a:hover {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+     .home .share{
+        bottom: 18rem;
     }
     .changer.active{
         display: block;
